@@ -1,5 +1,29 @@
 .cover__overlay {
   text-decoration: none;
   color: white;
+  background: url(../../../images/cover.jpg) no-repeat;
+  min-height: 740px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+}
 
+.cover__overlay::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover__link:hover .cover__overlay::after {
+  opacity: 0.8;
 }

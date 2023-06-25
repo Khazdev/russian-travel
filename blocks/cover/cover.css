@@ -1,12 +1,13 @@
-.cover {
-  background-image: url(../../images/__background.jpg);
+/* .cover {
+  background-image: url(../../images/cover.jpg);
   height: 740px;
-  width: 1184px;
+  max-width: 1184px;
   padding-top: 245px;
   object-fit: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
   position: relative;
+  z-index: 1;
 }
 
 .cover::after {
@@ -22,4 +23,8 @@
 
 .cover::after:hover {
   opacity: 0.8;
+} */
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
 }
