@@ -7,3 +7,14 @@
   text-align: center;
   z-index: 1;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: 35px;
+  }
+}
