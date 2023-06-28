@@ -2,6 +2,7 @@
   text-decoration: none;
   color: #FFF;
   background: url(../../../images/cover.jpg) no-repeat;
+  background-size: cover;
   min-height: 740px;
   width: 100%;
   position: relative;
@@ -13,7 +14,7 @@
   background-position: center center;
 }
 
-.cover__overlay::after {
+.cover__overlay::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -24,6 +25,13 @@
   opacity: 0.3;
 }
 
-.cover__link:hover .cover__overlay::after {
+.cover__link:hover .cover__overlay::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+    /* object-fit:cover; */
+  }
 }
