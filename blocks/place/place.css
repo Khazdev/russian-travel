@@ -22,9 +22,15 @@
 }
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: repeat(2, minmax(340px, 1fr));
+    grid-template-columns: 340px 352px;
+    /* grid-template-columns: repeat(2, minmax(340px, 1fr)); */
     column-gap: 28px;
-    max-width: 720px;
+    /* max-width: 720px; */
+    margin: 0 24px;
+  
+    /* grid-template-columns: 340px 1fr; */
+    /* grid-gap: 48px 28px; */
+    /* width: fit-content; */
   }
 }
 
