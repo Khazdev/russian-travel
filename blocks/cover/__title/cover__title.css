@@ -8,9 +8,9 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .cover__title {
-    color: #FFF;
+
     text-align: center;
     font-size: 32px;
     font-family: Inter;

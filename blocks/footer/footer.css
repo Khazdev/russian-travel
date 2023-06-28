@@ -5,20 +5,20 @@
   margin: 92px auto 24px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .footer {
     max-width: 928px;
   }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   .footer {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .footer {
     max-width: 100%;
     flex-direction: column;

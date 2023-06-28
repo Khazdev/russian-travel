@@ -1,12 +1,10 @@
 .lead {
-  /* box-sizing: border-box; */
-  /* padding-top: 56px; */
   max-width: 984px;
   margin: 56px auto;
   object-fit: contain;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .lead {
     max-width: 928px;
     margin-top: 48px;
@@ -18,7 +16,6 @@
     max-width: 100%;
   }
 }
-
 
 @media screen and (max-width:  320px) {
   .lead {

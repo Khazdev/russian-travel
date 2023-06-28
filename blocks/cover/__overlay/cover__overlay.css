@@ -1,6 +1,5 @@
 .cover__overlay {
   text-decoration: none;
-  color: #FFF;
   background: url(../../../images/cover.jpg) no-repeat;
   background-size: cover;
   min-height: 740px;
@@ -29,16 +28,20 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .cover__overlay {
     min-height: 640px;
-    /* object-fit:cover; */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   .cover__overlay {
     min-height: 480px;
-    /* object-fit:cover; */
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .cover__overlay {
+    min-height: 200px;
   }
 }

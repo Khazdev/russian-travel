@@ -6,27 +6,28 @@
   max-width: 460px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .place__title {
-  max-width: 440px;
+    max-width: 440px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   .place__title {
-    font-size: 42px;
+    letter-spacing: .75px;
+    font-style: normal;
     font-weight: 900;
+    font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .place__title {
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;
     width: 288px;
-    /* margin-left: auto; */
     margin: 0 auto;
   }
 }

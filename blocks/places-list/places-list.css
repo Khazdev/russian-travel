@@ -8,8 +8,14 @@
   font-size: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   .places-list {
     gap: 70px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .places-list {
+    gap: 50px;
   }
 }

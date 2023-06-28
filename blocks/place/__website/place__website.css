@@ -1,9 +1,8 @@
 .place__website {
   align-self: self-end;
-  /* gap: 12px; */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .place__website {
     width: 288px;
     margin: 0 auto;
