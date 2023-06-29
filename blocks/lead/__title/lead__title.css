@@ -6,17 +6,7 @@
   max-width: 720px;
   margin: 0 auto;
   padding: 0;
-  letter-spacing: 0em;
-}
-
-@media screen and (max-width: 990px) {
-  .lead__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-  }
+  font-style: normal;
 }
 
 @media screen and (max-width: 750px) {
