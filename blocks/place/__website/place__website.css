@@ -7,7 +7,8 @@
 
 @media screen and (max-width: 750px) {
   .place__website {
-    width: 288px;
-    margin: 0 auto;
+    max-width: 288px;
+    margin-left: 5%;
+    margin-right: auto;
   }
 }
