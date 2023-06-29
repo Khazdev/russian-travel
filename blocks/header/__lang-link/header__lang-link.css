@@ -4,15 +4,11 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-}
-
-.header__lang-link:hover {
-  text-decoration: underline;
+  font-style: normal;
 }
 
 @media screen and (max-width:  320px) {
   .header__lang-link {
-    font-style: normal;
     font-size: 18px;
     line-height: 20px;
     text-align: right;

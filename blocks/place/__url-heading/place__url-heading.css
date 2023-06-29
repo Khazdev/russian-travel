@@ -2,6 +2,8 @@
   font-size: 12px;
   font-weight: 400;
   color: #aaa;
-  margin: 0 0 12px;
+  margin: 0;
   letter-spacing: 2px;
+  line-height: 12px;
+  text-transform: uppercase;
 }
